@@ -9,7 +9,8 @@ The overall design aims to accomodate a simple scoring and results publishing sy
 5.  Hierarchical file basedsStorage
 
 ##  1.  Support Importing Raw Results
-The raw results will come in via 3rd party data either in xlsx or csv.  It must have the following standard set of columns:
+The raw results will come in via 3rd party data either in xlsx or csv.  It must have the following standard set of columns: 
+
 	["RaceColumn", "Place", "Sex", "FName", "LName", "Age", "City", "State", "Time", "USATFResult"]
 
 
