@@ -37,7 +37,8 @@ The scoring utility should have direct access to items described in #1 and #2.  
 
 ## 4.  Presentation Utility
 
-The presentation utility should have access to the output of 3A and 3B and be able to generate output comparable to the html examples that can be found in [examples|./examples/].  The utility may be part of the scoring utility, or separate. 
+The presentation utility should have access to the output of 3A and 3B and be able to generate output comparable to the html examples that can be found in [examples](./examples/).
+The utility may be part of the scoring utility, or separate. 
 
 
 ## 5.  All of these files should be stored in a hierarchical file-like format.  It should support remote storage, backup an preferably versioning.  Options include:
