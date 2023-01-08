@@ -1,12 +1,15 @@
 # Race Scoring High Level Design
 
 
-The overall design aims to accomodate a simple scoring and results publishing system.  This will be accomplished by the following:
-1.  Support importing raw race results via xlsx or csv
-2.  Storing and maintaining supporting data in xlsx, csv or text format
-3.  A scoring utility to process raw results and supporting data
-4.  A presentation utilty (might be part of scoring utility) that generates web output (html, css, js) suitable for presenting by a website.
-5.  Hierarchical file basedsStorage
+The overall design aims to accommodate a simple scoring and results publishing system.  This will be accomplished by the following:
+1. Support importing raw race results via xlsx or csv
+2. Storing and maintaining supporting data in xlsx, csv or text format
+3. A scoring utility to process raw results and supporting data
+4. A presentation utility (might be part of scoring utility) that generates web output (html, css, js) suitable for presenting by a website.
+5. Hierarchical file based Storage
+
+## Figure 1.
+[Race Processing System](./Race Processing System.png)
 
 ##  1.  Support Importing Raw Results
 The raw results will come in via 3rd party data either in xlsx or csv.  It must have the following standard set of columns: 
@@ -55,7 +58,7 @@ The utility may be part of the scoring utility, or separate.
 - is easy for sharing and accessing
 - The free tier provides sufficient space + sharing, 
 - Lacks good versioning.  
-- Backup would be manual and somewhat error prone.
+- Backup would be manual and somewhat error-prone.
 
 ### Box 
  - has a good free account, 
