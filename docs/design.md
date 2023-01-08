@@ -9,7 +9,7 @@ The overall design aims to accommodate a simple scoring and results publishing s
 5. Hierarchical file based Storage
 
 ## Figure 1.
-[Race Processing System](./Race Processing System.png)
+![Race Processing System](Race%20Processing%20System.png)
 
 ##  1.  Support Importing Raw Results
 The raw results will come in via 3rd party data either in xlsx or csv.  It must have the following standard set of columns: 
